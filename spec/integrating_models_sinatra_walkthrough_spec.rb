@@ -12,7 +12,7 @@ describe App do
       expect(page).to have_field(:user_text)
     end
   end
-  end
+ 
 
   describe 'TextAnalyzer Class' do
     let!(:words) { TextAnalyzer.new("mirror mirror on the wall") }
